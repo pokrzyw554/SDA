@@ -1,14 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package pl.mavenproject2;
 
 /**
  *
  * @author plewandowski
  */
-public interface Student {
+public abstract class Student {
     
+    public void printName(){
+        System.out.println(getName());
+    }
+    
+    abstract String getName();
 }
