@@ -10,5 +10,5 @@ public abstract class Student {
         System.out.println(getName());
     }
     
-    abstract String getName();
+    public abstract String getName();
 }
